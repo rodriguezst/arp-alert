@@ -6,7 +6,7 @@ const bot_api_key = 'bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11';
 const client_key = '00000000';
 
 var hosts_file = 'known_hosts.txt';
-# Create file if not found
+
 fs.appendFileSync(hosts_file,'');
 var known_hosts = fs.readFileSync(hosts_file);
 var arpMonitor = new ArpMonitor();
